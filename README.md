@@ -9,7 +9,7 @@ Firstly clone the current project directory using the command: git clone https:/
 A. If your system has docker already installed run the following commands in your linux based CLI:-
 (1) Enter the project directory using: cd project_directory_name
 (2) Enter docker up after build command to get container running: sudo docker-compose up -d --build
-(3) This must create a URL that can be copied to browser to inspect the site exposed at port 3001 or you can directly use "http://localhost:3001".
+(3) This must create a URL that can be copied to browser to inspect the site exposed at port 3005 or you can directly use "http://localhost:3005".
 (4) Enter docker stop to stop the container: sudo docker-compose stop
 
 B. Do not have docker installed then run following commands in your linux based CLI:-
