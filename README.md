@@ -16,5 +16,5 @@ B. Do not have docker installed then run following commands in your linux based 
 (1) Enter the project directory using: cd project_directory_name
 (2) Install the dependencies using: npm install
 (3) Execute the code in a localhost using: npm start
-(4) This should redirect you to the localhost server at port 3000, if not you can directly use the url "http//localhost:3000".
+(4) This should redirect you to the localhost server at port 3000, if not you can directly use the url "http://localhost:3000".
 (5) To exit the local server type: exit or ctrl^C to force stop.  
