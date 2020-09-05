@@ -1,0 +1,42 @@
+:root {
+  --app-font: "Metropolis", sans-serif;
+  --neutral-color: #e5e5e5;
+}
+
+.Spin {
+  font-family: var(--app-font);
+  text-align: center;
+  background-color: var(--neutral-color);
+  user-select: none;
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+}
+
+.Spin .text1 {
+  position: absolute;
+  width: 215px;
+  height: 48px;
+  left: 73px;
+  top: 474px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Spin .text2 {
+  position: absolute;
+  width: 267px;
+  height: 36px;
+  left: 43px;
+  top: 528px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 15px;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 0.58);
+}
